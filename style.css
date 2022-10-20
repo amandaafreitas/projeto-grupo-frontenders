@@ -1,0 +1,55 @@
+body {
+  background-color: black !important ;
+}
+
+.btn-primary {
+  background-color: #d55065 !important ;
+  border-color: white !important;
+}
+
+.titulo {
+  font-size: 70px;
+  text-shadow: 0 0 7px #fff, 0 0 7px #0fa, 0 0 7px #0fa;
+}
+
+.assinatura-card:before,
+.assinatura-card:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+
+  background: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #ffff00,
+    #ff0000
+  );
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+  border-radius: 5px;
+}
+
+.assinatura-card:after {
+  filter: blur(30px);
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
