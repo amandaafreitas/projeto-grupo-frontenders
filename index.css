@@ -1,0 +1,394 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imagens/fundo.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    width: 105px;
+    cursor: pointer;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    flex: 1;
+    text-align: right;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 120px;
+    color: greenyellow;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    cursor: default;
+    transition: all 300ms ease;
+}
+
+.nav ul li a:hover{
+    color: red;
+}
+
+#contatos{
+    background-color: #5065d5;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+
+#contatos:hover{
+    box-shadow: 0 0.5rem 1rem black;
+}
+
+.row{
+    display: flex;
+    height: 0;
+    align-items: center;
+}
+
+.col{
+    display: block;
+    padding-left: 40%;
+    padding-top: 50%;
+}
+
+.col h1{
+    font-size: 4.5rem;
+    color: white;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 42px #0fa,
+    0 0 151px #0fa;
+}
+
+.col h2{
+    font-size: 2.13rem;
+    color: white;
+    text-shadow: 0 0 0.7rem black;
+}
+
+.col p{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0 0 0.7rem black;
+}
+
+.col2{
+    display: flex;
+    height: 450px;
+    width: 100px;
+    padding-top: 50%;
+}
+
+.col2 img{
+    margin-bottom: -27px;
+    margin-left: -170px;
+}
+
+button{
+    width: 180px;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 0;
+    background-color: #d81d77;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: default;
+    transition: all 200ms ease;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    box-shadow:
+    0 0 7px #fff,
+    0 0 42px #0fa,
+    0 0 151px #0fa;;
+}
+
+/*NOVOS PRODUTOS*/
+
+.features{
+    background-image: linear-gradient(#5065d5, #d81d77);
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-top: 50px;
+    text-shadow: 0 0 0.7rem black;
+}
+
+.features p{
+    text-align: center;
+    color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.features .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.features .box-container .box:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.features .box-container .box{
+    flex: 1 1 0rem;
+    background: #d81d77;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: all .35s ease;
+}
+
+.features .box-container .box img{
+    height: 15rem;
+}
+
+.features .box-container .box h3{
+        font-size: 2rem;
+        color: white;
+        padding-top: 1rem;
+}
+
+.features .box-container .box a{
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem;
+    background-color: #5065d5;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.features .box-container .box a:hover{
+    box-shadow:
+    0 0 7px #fff,
+    0 0 42px #0fa,
+    0 0 151px #0fa;;
+}
+
+
+/*IMPRENSA E MÍDIA*/
+
+.press{
+    background: #d81d77;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.press h1{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: 0 0 0.7rem black;
+}
+
+blockquote {
+    margin: 50px 200px 0px 200px;
+    padding: 1em;
+    border-left: 5px solid white;
+  }
+
+  blockquote:before {
+    display: none;
+  }
+
+  blockquote:not(:first-of-type) {
+    margin-top: .5em;
+  }
+
+  blockquote p {
+    color: white;
+    font-size: 13pt;
+    line-height: 1.5;
+    font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  }
+
+  blockquote footer {
+    margin-top: .5em;
+    padding: 0;
+    color: black;
+    font-size: 12pt;
+    text-align: left;
+    font-style: italic;
+  }
+  blockquote footer:before {
+    content: '— ';
+  }
+  blockquote:nth-of-type(even) {
+    text-align: right;
+    border-left: none;
+    border-right: 5px solid white;
+  }
+  blockquote:nth-of-type(even) footer {
+    text-align: right;
+  }
+  blockquote:nth-of-type(even) footer:before {
+    content: '';
+  }
+  blockquote:nth-of-type(even) footer:after {
+    content: ' —';
+  }
+  
+
+
+/*FOOTER*/
+
+* footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-footer{
+    max-width: 1170px;
+
+    margin: auto;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer{
+    background-image: linear-gradient(#d81d77,#5065d5);
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 0px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: black;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #5065d5;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color: pink;
+    background-color: #d81d77;
+}
+
+/*FIM*/
+
+.fim{
+    background-color: #5065d5;
+    text-align: center;
+}
+
+.fim p{
+    color: white;
+}
+
+.botaofinal{
+    padding: 7px 7px 7px 7px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+}
+
+.email{
+    margin-bottom: -10px;
+    padding: 7px 40px 7px 10px;
+}
