@@ -1,0 +1,226 @@
+
+/* nav */
+.principal{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  margin-bottom: 70px;
+}
+
+
+.logo{
+  width: 105px;
+  cursor: pointer;
+}
+
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.nav{
+  flex: 1;
+  text-align: right;
+}
+
+.nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 120px;
+  color: greenyellow;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  cursor: default;
+  transition: all 300ms ease;
+}
+
+.nav ul li a:hover{
+  color: red;
+}
+
+#contatos{
+  background-color: #5065d5;
+  padding: 10px;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+
+#contatos:hover{
+  box-shadow: 0 0.5rem 1rem black;
+}
+
+
+
+/* fundo */
+body {
+
+  background-size: auto 140%;
+  background-attachment: fixed, scroll;
+  background-image: url(../imagens/fundo.png);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* HEADER */
+.title h1 {
+  font-size: 60px;
+  color: #de1d7e;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 1%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: black 0.1em 0.2em 0.2em;
+}
+
+#rest {
+  text-shadow:black 0.1em 0.3em 0.3em;
+  color: #5065d5;
+  
+}
+
+.sub {
+  width: 60%;
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  color: rgb(230, 220, 220);
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+}
+
+hr {
+  width: 56%;
+  margin: auto;
+  color: white;
+}
+
+/* CARD  */
+
+.corpo {
+  /*background-color: #fff;*/
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 50%;
+  display: flex;
+  /* COLOCAR FLEX */
+  border: 5px solid #782C70;
+  
+
+}
+.corpo h2 {
+  color: white;
+  margin-top: 40px;
+  margin-left: 20px;
+ font-size:25px;
+ 
+}
+
+.icon {
+  width: 70px;
+  margin: auto;
+}
+
+.icones {
+  margin-top: 20px;
+  margin-left:40px;
+
+
+}
+
+.sobre {
+  margin-top: 39px;
+  width: 80%;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  text-align: left;
+color: white;
+margin-bottom: 20px;
+
+}
+
+
+
+/* edição das do card */
+#fotoAN {
+  width: 310px;
+  height: 378px;
+}
+
+#fotoAM {
+  width: 310px;
+  height: 378px;
+}
+#fotoadri{
+  width: 310px;
+  height: 378px;
+}
+
+#fotobrend{
+  width: 310px;
+  height: 378px;
+}
+
+
+/* edição das fotos redondas */
+#f1:hover {
+  border-radius: 100px;
+  transform: scale(1.5);
+}
+
+#f2:hover {
+  border-radius: 100px;
+  transform: scale(1.5);
+}
+
+#f2:hover {
+  border-radius: 100px;
+  transform: scale(1.5);
+}
+
+
+#f3:hover {
+  border-radius: 100px;
+  transform: scale(1.5);
+}
+
+#f4:hover {
+  border-radius: 100px;
+ 
+  transform: scale(1.5);
+}
+
+
+#f5:hover {
+  border-radius: 100px;
+  transform: scale(1.5);
+}
+
+.inicio {
+
+  width: 200px;
+   height: 200px;
+   background-color: #000;
+   color: #FFF;
+   border-radius: 100px;
+  margin-top: 80px;
+margin-left: 2%;}
