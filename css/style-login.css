@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* nav */
 .principal {
-  background-image: url(/imagens/fundo.png);
+  background-image: url(../imagens/fundo.png);
   background-position: center;
   background-size: cover;
   padding-left: 8%;
@@ -76,6 +76,7 @@ main {
   position: relative;
   height: 67vh;
   width: 100vw;
+  margin-top: 75px;
 }
 
 section#login {

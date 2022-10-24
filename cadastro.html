@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Monster - Lista de Espera</title><link rel="stylesheet" href="css/style.css">
-    
+    <title>Dev Monster - Lista de Espera</title>
+    <link rel="stylesheet" href="css/cadastrostyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
+
 <body>
     <div class="principal">
         <div class="navbar">
-            <img src="img/logo.png" class="logo">
+            <img src="imagens/logo.png" class="logo">
             <div class="nav">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Bebidas</a></li>
-                    <li><a href="#" id= "clientes">Clientes</a></li>
-                    <li><a href="#" id="contatos">Contatos</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="planos-assinatura.html">Planos</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                    <li><a href="login.html">Login | Recuperar senha</a></li>
+                    <li><a href="cadastro.html" id="cadastro">Cadastro</a></li>
                 </ul>
             </div>
         </div>
-    <h1>Bem-vindo(a) lista de espera da bebida mais solicitada do mundo!</body>
-        <h2>Entre na lista de espera para comprar suas edições da Dev Monster e se torne um monstro da Programação!!!</h2>
+        <h1>Bem-vindo(a) lista de espera da bebida mais solicitada do mundo!</h1>
+
+        <h2>Entre na lista de espera para comprar suas edições da Dev Monster e se torne um monstro da
+            Programação!!!</h2>
 
         <div id="container">
             <img src="" alt="">
             <form action="">
                 <div id="nm">
-                    
-                    <p id="noome">Seu nome: <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" size="41" name="nome" />
+
+                    <p id="noome">Seu nome: <input type="text" id="nomeid" placeholder="Digite seu nome"
+                            required="required" size="41" name="nome" />
                         <label for="nome"></label>
                     </p>
                 </div>
                 <div id="lastnome">
-                    Seu sobrenome: 
-                    <input class="nome" type="text" name="sobrenome" size="34" id="lastname" required="required" placeholder="Digite seu sobrenome">
+                    Seu sobrenome:
+                    <input class="nome" type="text" name="sobrenome" size="34" id="lastname" required="required"
+                        placeholder="Digite seu sobrenome">
                 </div>
                 <div id="semail">
                     Seu email:
-                    <input class="email" type="email" name="email" size="41" id="email"   required="required" placeholder="Digite seu e-mail">
+                    <input class="email" type="email" name="email" size="41" id="email" required="required"
+                        placeholder="Digite seu e-mail">
                 </div>
                 <div id="suasenha">
-                    Sua senha: 
-                    <input class="senha" type="password" name="senha" size="40" id="senha" required="required"placeholder="Digite sua senha">
+                    Sua senha:
+                    <input class="senha" type="password" name="senha" size="40" id="senha" required="required"
+                        placeholder="Digite sua senha">
                 </div>
                 <div>
-                    Confirme a senha: 
-                    <input class="senha" type="password" name="senha" size="31" id="senha" required="required" placeholder="Digite sua senha">
+                    Confirme a senha:
+                    <input class="senha" type="password" name="senha" size="31" id="senha" required="required"
+                        placeholder="Digite sua senha">
                 </div>
                 <div class="form-div">
                     <form action="" id="formulario">
@@ -57,56 +67,98 @@
                             <button type="button" onclick='consultarCep()'>Consultar</button>
                             <br><label id="resposta"></label>
                         </label>
-        
+
                         <div id="hidden-show" style="display: none;">
                             <br><br>
-                            <label for=""> Rua   </label>
+                            <label for=""> Rua </label>
                             <input type="text" name="" placeholder=" " id="logradouro">
-        
-                            <label for="">  Bairro   </label>
+
+                            <label for=""> Bairro </label>
                             <input type="text" name="" placeholder=" " id="bairro">
-        
+
                             <br><br>
                             <label for=""> Cidade</label>
                             <input type="text" name="" placeholder=" " id="localidade">
-        
+
                             <label for="">Estado </label>
                             <input type="text" name="" placeholder=" " id="uf">
-        
-                <div id="escolha">
-                    Escolha a edição: 
-                </div>
-                    <br>
-                    <input type="checkbox" id="dmhtml" name="dmhtml" value="DMHTML">
-                    <label for="dmhtml"> <img id="img1" src="img/duashtmlfundopreto.gif" alt=""></label>
-                    <input type="checkbox" id="dmcss" name="dmcss" value="DMCSS">
-                    <label for="dmcss"> <img id="img2" src="img/duascssfundopreto.gif" alt=""></label>
-                    <input type="checkbox" id="dmjavascript" name="dmjavascript" value="DMJavaScript">
-                    <label for="dmjavascript"> <img id="img3" src="img/duasjavascriptfundopreto.gif" alt=""></label>
-                    <input type="checkbox" id="dmbancodedados" name="dmbancodedados" value="DMBDD">
-                    <label for="dmbancodedados"> <img id="img4" src="img/duasbancofundopreto.gif" alt=""></label>
+
+                            <div id="escolha">
+                                Escolha a edição:
+                            </div>
+                            <br>
+                            <input type="checkbox" id="dmhtml" name="dmhtml" value="DMHTML">
+                            <label for="dmhtml"> <img id="img1" src="img/duashtmlfundopreto.gif" alt=""></label>
+                            <input type="checkbox" id="dmcss" name="dmcss" value="DMCSS">
+                            <label for="dmcss"> <img id="img2" src="img/duascssfundopreto.gif" alt=""></label>
+                            <input type="checkbox" id="dmjavascript" name="dmjavascript" value="DMJavaScript">
+                            <label for="dmjavascript"> <img id="img3" src="img/duasjavascriptfundopreto.gif"
+                                    alt=""></label>
+                            <input type="checkbox" id="dmbancodedados" name="dmbancodedados" value="DMBDD">
+                            <label for="dmbancodedados"> <img id="img4" src="img/duasbancofundopreto.gif"
+                                    alt=""></label>
 
 
-                </div>
-                <div>
-                    <input id="enviar" class="submit" type="submit" onclick="Enviar();" value="Enviar">
+                        </div>
+                        <div>
+                            <input id="enviar" class="submit" type="submit" onclick="Enviar();" value="Enviar">
+                        </div>
+                    </form>
                 </div>
             </form>
+        </div>
+        <footer class="footer">
+            <div class=" container container-footer">
+                <div class=" row row-footer">
+                    <div class=" footer-col col-lg-3 col-sm-6">
+                        <h4>Informações</h4>
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="planos-assinatura.html">Planos</a></li>
+                            <li><a href="contato.html">Contatos</a></li>
+                            <li><a href="login.html">Login | Recuperar senha</a></li>
+                            <li><a href="cadastro.html">Cadastro</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-lg-3 col-sm-6">
+                        <h4>Categorias</h4>
+                        <ul>
+                            <li><a href="#">CSS Edition</a></li>
+                            <li><a href="#">Javascript Edition</a></li>
+                            <li><a href="#">HTML Edition</a></li>
+                            <li><a href="#">Banco de Dados Edition</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-lg-3 col-sm-6">
+                        <h4>Outros</h4>
+                        <ul>
+                            <li><a href="#">Política de Privacidade</a></li>
+                            <li><a href="#">Política de Reembolso</a></li>
+                            <li><a href="#">Política de Cookies</a></li>
+                            <li><a href="#">Termos e Condições</a></li>
+                        </ul>
+                    </div>
+                    <div class="  footer-col col-lg-3 col-sm-6">
+                        <h4>Newsletter e Cupons</h4>
+                        <input type="email" placeholder="Digite seu e-mail..." class="email">
+                        <button class="botaofinal">Registrar e-mail</button>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
-                
+            </div>
+            <div class="fim">
+                <p>Copyright © 2022 Programadores Cariocas.</p>
+            </div>
+        </footer>
 
 
 
-
-
-   
-   
-   
-   
-   
-   
-   
-   
-    <script src="js/javascript.js"></script>
 </body>
+<script src="js/javascript.js"></script>
+
 </html>
