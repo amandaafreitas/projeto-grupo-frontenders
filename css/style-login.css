@@ -69,13 +69,11 @@ html {
   background-repeat: no-repeat;
   /* background-image: url(../imagens/fundo.png); */
   height: 100vh;
-  width: 100vw;
 }
 
-main{
+main {
   position: relative;
   height: 100vh;
- 
 }
 section#login {
   position: absolute;
@@ -143,18 +141,6 @@ div#formulario > p {
   height: 247px;
   border-radius: 13px;
   padding: 35px;
-}
-/*FOOTER*/
-/* * footer {
-  margin: -110px;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
-.container-footer {
-  max-width: 1170px;
-
-  margin: auto;
 }
 
 .row-footer {
@@ -231,17 +217,6 @@ div#formulario > p {
 .footer-col .social-links a:hover {
   color: pink;
   background-color: #d81d77;
-}
-
-/*FIM*/
-
-.fim {
-  background-color: #5065d5;
-  text-align: center;
-}
-
-.fim p {
-  color: white;
 }
 
 .botaofinal {
@@ -344,7 +319,6 @@ div#formulario > p {
 /*FIM*/
 
 .fim {
-  background-color: #5065d5;
   text-align: center;
 }
 
