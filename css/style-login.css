@@ -223,8 +223,18 @@ div#formulario > p {
   padding: 7px 7px 7px 7px;
   margin-bottom: 20px;
   margin-left: 14px;
+  width: 180px;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 0;
+  background-color: #d81d77;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  cursor: default;
+  transition: all 200ms ease;
 }
-
 .email {
   margin-bottom: -10px;
   padding: 7px 40px 7px 10px;
